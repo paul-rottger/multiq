@@ -16,7 +16,9 @@ We explore differences in tokenization as a potential explanation for our findin
 
 This is a joint work by *Carolin Holtermann, Paul Röttger, Timm Dill and Anne Lauscher*. For further details feel free to check out our paper: 
 
+## MultiQ on Huggingface
 
+Our silver standard benchmark is available on Huggingface: [see here](https://huggingface.co/datasets/caro-holt/MultiQ)
 
 ## Getting Started
 
