@@ -14,6 +14,9 @@ Most models are more accurate when they respond faithfully.
 However, differences across models are large, and there is a long tail of languages where models are neither accurate nor faithful.
 We explore differences in tokenization as a potential explanation for our findings, identifying possible correlations that warrant further investigation.
 
+This is a joint work by *Carolin Holtermann, Paul Röttger, Timm Dill and Anne Lauscher*. For further details feel free to check out our paper: 
+
+
 
 ## Getting Started
 
@@ -23,22 +26,15 @@ We conducted all our experiments with Python 3.10. Before getting started, make 
 pip install -r requirements.txt
 ```
 
-------------------------
-## Citation
+## Repository Description
 
-```
-@inproceedings{,
-    title = "",
-    author = "",
-    booktitle = "",
-    year = "",
-    publisher = "",
-    url = "",
-}
-```
+This repository contains all code and data needed to reproduce the experiments and results reported in our paper. 
+All data files can be found in the **data** folder, while all relevant code files can be found in the **src** folder, both with corresponding readme files. 
+
+------------------------
 
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the CC-BY-4.0 License - see the [LICENSE.md](LICENSE.md) file for details
