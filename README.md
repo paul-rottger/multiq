@@ -2,6 +2,9 @@
 <span>Evaluating the Elementary Multilingual Capabilities of Large Language Models with MultiQ</span>
 </h1>
 
+[![arxiv preprint](https://img.shields.io/badge/arXiv-2208.01575-b31b1b.svg)](https://arxiv.org/abs/2403.03814)
+
+
 
 Large language models (LLMs) need to serve everyone, including a global majority of non-English speakers.
 However, most LLMs today, and open LLMs in particular, are often intended for use in just English (e.g. Llama2, Mistral) or a small handful of high-resource languages (e.g. Mixtral, Qwen).
@@ -14,7 +17,7 @@ Most models are more accurate when they respond faithfully.
 However, differences across models are large, and there is a long tail of languages where models are neither accurate nor faithful.
 We explore differences in tokenization as a potential explanation for our findings, identifying possible correlations that warrant further investigation.
 
-This is a joint work by *Carolin Holtermann, Paul Röttger, Timm Dill and Anne Lauscher*. For further details feel free to check out our paper: 
+This is a joint work by *Carolin Holtermann, Paul Röttger, Timm Dill and Anne Lauscher*. For further details feel free to check out our [paper](https://arxiv.org/abs/2403.03814).
 
 ## MultiQ on Huggingface
 
