@@ -110,7 +110,7 @@ def detect_language_and_script(text, model):
     return 'Unknown', 'Unknown'
 
 def download_and_load_model():
-    model_path = hf_hub_download(repo_id="cis-lmu/glotlid", filename="model.bin", cache_dir=None)
+    model_path = hf_hub_download(repo_id="cis-lmu/glotlid", filename="model_v2.bin", cache_dir=None)
     model = fasttext.load_model(model_path)
     return model
 
