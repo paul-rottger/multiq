@@ -31,6 +31,11 @@ We conducted all our experiments with Python 3.10. Before getting started, make 
 pip install -r requirements.txt
 ```
 
+## Using GlotLID
+
+For our experiments we used the `model_v2.bin` configuration of the publicly available GlotLID model [see here](https://github.com/cisnlp/GlotLID). However, since the authors of this model are constantly making changes and covering even more languages with their model in further versions, it is worth visiting the GlotLID repository for the latest updates.
+
+
 ## Repository Description
 
 This repository contains all code and data needed to reproduce the experiments and results reported in our paper. 
